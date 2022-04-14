@@ -38,6 +38,7 @@ int main()
     printf("%s" , f);
     */
 
+
     //long long , long int, long double  --  shor int , short double ...
     
     getch();
