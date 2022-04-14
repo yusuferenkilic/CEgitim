@@ -31,7 +31,7 @@ int main()
 
 
     //----------------------  scanf()  ----------------------//
-    
+    /*
     char isim[15];
     char soyad[15];
     printf("Adiniz : ");
@@ -40,6 +40,37 @@ int main()
     scanf("%s" , &soyad);
 
     printf("Adiniz ve Soyadiniz : %s %s" , isim , soyad);
+    */
+
+    /*
+    int a;
+    int b;
+    printf("Bir sayi girin : ");
+    scanf("%d" , &a);
+    printf("Bir sayi girin : ");
+    scanf("%d" , &b);
+    printf("Sayilarin Toplami : %d" , a + b); //c = a + b diye c fonksiyonu oluşturulup en son c de yazılabilirdi. a + b , a - b , a * b , a / b 
+    */
+
+    /* //Verilen ölçülerdeki dikdörtgenin alan ve çevresini hesaplama
+    int kisaKenar;
+    int uzunKenar;
+    int alan;
+    int cevre;
+    
+    printf("Kisa Kenari Girin : ");
+    scanf("%d" , &kisaKenar);
+    
+    printf("Uzun Kenari Giriniz : ");
+    scanf("%d" , &uzunKenar);
+    
+    alan = kisaKenar * uzunKenar;
+    cevre = 2 * (kisaKenar + uzunKenar);
+    
+    printf("Alan = %d\n" , alan);
+    printf("Cevre = %d" , cevre);
+    */
+
 
     getch();
 }
